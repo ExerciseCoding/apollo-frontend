@@ -87,8 +87,8 @@ export const constantRoutes = [
       {
         path: 'list',
         component: () => import('@/views/crontab/list'),
-        name: '任务列表',
-        meta: { title: '任务列表', icon: 'component', affix: false }
+        name: '任务管理',
+        meta: { title: '任务管理', icon: 'component', affix: false }
       }
     ]
   }
